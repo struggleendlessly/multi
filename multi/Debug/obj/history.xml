@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IE:\MK\Stm32\multi\cmsis_lib\include -IE:\MK -IE:\MK\Stm32\multi\STM32F4-Discovery -IE:\MK\Stm32\multi\SE -IE:\MK\Stm32\multi\cmsis_lib -IE:\MK\Stm32 -IE:\MK\Stm32\multi -IE:\MK\Stm32\multi\cmsis -IE:\MK\Stm32\multi\cmsis_boot">
+      <target file="stm32f4xx_exti.o" lastModified="151eec28663">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14db6096909"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="151eec28326">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14db5e579f6"/>
+      </target>
+      <target file="Configure_PinsForIRQs.o" lastModified="151eec287ae">
+         <source file="..\..\..\SE\Configure_PinsForIRQs.c" lastModified="14e2b8f73be"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="151eec27f37">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14db5e5faee"/>
+      </target>
+      <target file="SSD1289.o" lastModified="151eec27fe7">
+         <source file="..\..\..\SE\SSD1289.c" lastModified="14e3078ff9c"/>
+      </target>
+      <target file="Tim4Init.o" lastModified="151eec2844b">
+         <source file="..\..\..\SE\Tim4Init.c" lastModified="14e30750ea1"/>
+      </target>
+      <target file="DelayForLCD32.o" lastModified="151eec283da">
+         <source file="..\..\..\SE\DelayForLCD32.c" lastModified="14e2c84eb23"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="151eec28106">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14db5e4fe9c"/>
+      </target>
+      <target file="Tim3Init.o" lastModified="151eec282e3">
+         <source file="..\..\..\SE\Tim3Init.c" lastModified="14e30d868cb"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="151eec2876d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14d1f37b8c4"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="151eec2835f">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151ee1f4c59"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="151eec28143">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="14e2a331040"/>
+      </target>
+      <target file="misc.o" lastModified="151eec2869a">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14db5e6619c"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="151eec28050">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_audio_codec.c" lastModified="14e2a331040"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="151eec283a7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14e2a33106f"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="151eec28628">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="14e2a2e31c0"/>
+      </target>
+      <target file="IRQHandlers.o" lastModified="151eec27efc">
+         <source file="..\..\..\SE\IRQHandlers.c" lastModified="14e304ac4c8"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="151eec2849a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14db5e627cf"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="1520c7af683">
+         <source file="..\..\..\SE\stm32f4xx_it.c" lastModified="1334a15f1c0"/>
+      </target>
+      <target file="ShowInfoLCD32.o" lastModified="151eec28599">
+         <source file="..\..\..\SE\ShowInfoLCD32.c" lastModified="14e3072f789"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="151eec2820a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14db5e4fe9c"/>
+      </target>
+      <target file="stm32f4_discovery_callbacks.o" lastModified="151eec2840e">
+         <source file="..\..\..\stm32f4_discovery_callbacks.c" lastModified="14e2a331050"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="151eec28098">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="151ee2129a6"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="151eec280dc">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="14e2a33107e"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="151eec285f0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14e2a33105f"/>
+      </target>
+      <target file="stm32f4_discovery_lis302dl.o" lastModified="151eec286dd">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lis302dl.c" lastModified="14e2a331050"/>
+      </target>
+      <target file="SPI.o" lastModified="1520c7b6f2c">
+         <source file="..\..\..\SE\SPI.c" lastModified="1520c7b6d57"/>
+      </target>
+      <target file="I2C.o" lastModified="1520c7f1eeb">
+         <source file="..\..\..\SE\I2C.c" lastModified="1520c7f0615"/>
+      </target>
+      <target file="AsciiLib.o" lastModified="151eec282a5">
+         <source file="..\..\..\SE\AsciiLib.c" lastModified="141d80ec406"/>
+      </target>
+      <target file="main.o" lastModified="1520c7df073">
+         <source file="..\..\..\main.c" lastModified="1520c7deeb3"/>
+      </target>
+   </processor>
+</history>
